@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+ <title>Página para exercicios HTML Gama Academy</title>
+        <meta charset="UTF-8" />
+        <meta name="description" content="Texto descritivo da pagina web" />
+        <meta name="Autor" content="Gama Academy" />
+        <meta name="viewport" content="width=device-width, inicial-scale = 1.0" />
+</head>
+    <body cz-shortcut-listen="true">
+    <!--Cabeçalho-->
+    <header> </header>
+        <!--Fim do cabeçalho-->
+
+        <!--Conteudo principal-->
+        <main role="main">
+            <p id="texto1">
+                Baby Yoda é um membro da mesma espécia alienígena sem nome dos personagens de Star Wars
+                Yoda e Yaddle, com quem ele compartilha uma fonte de habilidade na Força.
+            </p>
+
+            <button id="botao1" onclick="atualizacao()">Atualização de texto</button>
+
+            <script type="text/javascript">
+
+                function atualizacao() {
+                    var texto1 = document.getElementById("texto1");
+                    texto1.innerText = "Star Wars!";
+
+                }
+            
+            
+            </script>
+
+           
+        </main>
+        <!--Fim do conteudo principal-->
+
+        <!--Rodape-->
+        <footer>
+
+        </footer>
+        <!--Fim do Rodape-->
+    </body>
+</html>
